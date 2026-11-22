@@ -1,0 +1,26 @@
+{
+  "command": [
+    "{python}",
+    "app.py"
+  ],
+  "expected": {
+    "passages": [
+      {
+        "name": "First",
+        "tokens": 4,
+        "unknown_tokens": 0,
+        "unknown_words": []
+      },
+      {
+        "name": "Second",
+        "tokens": 5,
+        "unknown_tokens": 3,
+        "unknown_words": [
+          "and",
+          "bends",
+          "glows"
+        ]
+      }
+    ]
+  }
+}
